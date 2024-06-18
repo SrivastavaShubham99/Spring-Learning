@@ -13,6 +13,10 @@ public class ApiEndPoints {
     public static final String customer="/api/v1/customer";
 
 
+    public static final String order="/api/v1/order";
+
+    public static final String product="/api/v1/product";
+
 
 
 
