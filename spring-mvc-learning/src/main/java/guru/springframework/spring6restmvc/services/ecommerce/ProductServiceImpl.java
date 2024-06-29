@@ -12,7 +12,7 @@ import java.util.List;
 public class ProductServiceImpl implements ProductService{
 
 
-    private ProductRepository productRepository;
+    private final ProductRepository productRepository;
 
     ProductServiceImpl(ProductRepository productRepository){
         this.productRepository=productRepository;
